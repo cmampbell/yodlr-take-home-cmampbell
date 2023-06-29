@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminPage tests should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="AdminPage"
+  >
+    <h1>
+      Admin Page
+    </h1>
+    <div
+      class="AdminPage-UserCards"
+    >
+      <div
+        class="card border-light"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="active card-header"
+          >
+            Kyle White
+          </div>
+          <p
+            class="card-text"
+          >
+            Email: kyle@getyodlr.com
+          </p>
+          <p
+            class="card-text"
+          >
+            State: Active
+          </p>
+        </div>
+      </div>
+      <div
+        class="card border-light"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="active card-header"
+          >
+            Jane Stone
+          </div>
+          <p
+            class="card-text"
+          >
+            Email: jane@getyodlr.com
+          </p>
+          <p
+            class="card-text"
+          >
+            State: Active
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

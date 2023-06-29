@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupForm tests should match the snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="SignUpForm-div"
+  >
+    <h1>
+      Sign up for Yodlr!
+    </h1>
+    <form
+      action="/"
+      class="SignUpForm"
+      method="get"
+    >
+      <div
+        class="mb-3 form-floating"
+      >
+        <input
+          class="form-control"
+          id="firstName"
+          name="firstName"
+          placeholder="first name"
+          type="text"
+          value=""
+        />
+        <label
+          class="label form-label"
+          for="firstName"
+        >
+          First Name
+        </label>
+      </div>
+      <div
+        class="mb-3 form-floating"
+      >
+        <input
+          class="form-control"
+          id="lastName"
+          name="lastName"
+          placeholder="last name"
+          type="text"
+          value=""
+        />
+        <label
+          class="form-label"
+          for="lastName"
+        >
+          Last Name
+        </label>
+      </div>
+      <div
+        class="mb-3 form-floating"
+      >
+        <input
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="email"
+          type="text"
+          value=""
+        />
+        <label
+          class="form-label"
+          for="email"
+        >
+          Email
+        </label>
+      </div>
+      <button
+        class="btn btn-secondary"
+        type="submit"
+      >
+        Sign Up!
+      </button>
+    </form>
+  </section>
+</DocumentFragment>
+`;
