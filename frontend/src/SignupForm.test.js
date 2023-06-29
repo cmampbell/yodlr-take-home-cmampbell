@@ -43,4 +43,17 @@ describe('SignupForm tests', () => {
         });
         
     })
+
+    it('should not let a user submit form if incomplete', async() => {
+        renderWithRouter(<SignupForm />)
+
+        await act(async ()=> {
+            await user.type(screen.getByLabelText("First Name"), 'test');
+            await user.type(screen.getByLabelText("Last Name"), 'test');
+            await user.click(screen.getByText("Sign Up!"))
+        })
+
+        expect(fetch).not.toHaveBeenCalled();
+        expect(screen.getByText("Sign Up!").hasAttribute('disabled')).toBe(true)
+    })
 })

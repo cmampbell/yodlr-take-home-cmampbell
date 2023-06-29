@@ -68,7 +68,8 @@ exports[`SignupForm tests should match the snapshot 1`] = `
         </label>
       </div>
       <button
-        class="btn btn-secondary"
+        class="btn btn-secondary disabled"
+        disabled=""
         type="submit"
       >
         Sign Up!
