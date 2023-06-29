@@ -16,7 +16,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
+// removing because we will use react to render our html
+// app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/users', users);
 
@@ -38,7 +39,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
-app.set('port', process.env.PORT || 3000);
+// changed port to 3001 so we can have server running while react is running
+app.set('port', process.env.PORT || 3001);
 
 var server = app.listen(app.get('port'), function() {
   log.info(

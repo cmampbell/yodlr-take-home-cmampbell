@@ -14,6 +14,7 @@ router.get('/', function(req, res) {
 
 /* Create a new user */
 router.post('/', function(req, res) {
+  log.info('Req.body:' , req.body)
   var user = req.body;
   user.id = curId++;
   if (!user.state) {

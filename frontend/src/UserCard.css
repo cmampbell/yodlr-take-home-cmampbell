@@ -1,0 +1,32 @@
+.card {
+    height: 100px;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding:0%;
+}
+
+.card-header {
+    width: 400px;
+    padding: 0%;
+
+    background-color: #fcfcfc;
+    text-align: left;
+    text-indent: 5%;
+}
+
+.active {
+    border-color: green;
+}
+
+.pending {
+    border-color: #8F8547;
+}
+
+.card-text {
+    text-align: left;
+    text-indent: 5%;
+}
